@@ -2,6 +2,7 @@ body {
     --main-background: #E2E8F0;
     --main-component-background: #FFFFFF;
     --secondary-component-background: #1992D4;
+    --orange-border: #F0B429;
 
     background-color: var(--main-background);
     margin: 0px;
@@ -81,7 +82,7 @@ body {
 
 .project-card, .announcement-card, .trending-card {
     background-color: var(--main-component-background);
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 16px;
 }
 
@@ -91,6 +92,7 @@ body {
 }
 
 .project-card {
+    border-left: 8px solid var(--orange-border);
 }
 
 .main-content {
