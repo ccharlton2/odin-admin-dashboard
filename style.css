@@ -3,6 +3,66 @@
     grid-template-columns: 1fr 5fr;
 }
 
+/* header start */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header-top,
+.header-bottom {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header-top {
+    justify-content: space-evenly;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    gap: 24px;
+}
+
+#search-bar {
+    flex: 1;
+    max-width: 70%;
+}
+
+.header-top-notification-area {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.header-bottom {
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex: 1;
+    gap: 24px;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+}
+
+.user-info-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header end */
+
 .sidebar {
     grid-row: 1 / 3;
 }
