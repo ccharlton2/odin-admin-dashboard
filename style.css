@@ -14,6 +14,20 @@ body {
     grid-template-columns: 1fr 5fr;
 }
 
+.profile-picture-small {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-picture-medium {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
 /* header start */
 
 .header {
@@ -56,41 +70,47 @@ body {
 .header-top-notification-area {
     display: flex;
     gap: 24px;
+
+    font-weight: 700;
 }
 
 .header-bottom {
     align-items: center;
 }
 
-.user-info {
+.header-bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-container {
     display: flex;
     flex: 1;
+    justify-content: space-between;
+    align-items: center;
     gap: 24px;
+
+    font-weight: 700;
 }
 
-.profile-picture-small {
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.user-info {
+    display: flex;
+    gap: 16px;
 }
-
-.profile-picture-medium {
-    vertical-align: middle;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-}
-
 
 .user-info-text {
     display: flex;
     flex-direction: column;
 }
 
+.user-name {
+    font-size: 24px;
+}
+
 .header-bottom-user-controls {
     display: flex;
     gap: 24px;
+    align-self: end;
 }
 
 .header-bottom-user-controls button {
@@ -138,7 +158,7 @@ body {
 
 div[class*="card"] {
     box-shadow: rgba(0, 0, 0, 0.24) 2px 4px 12px;
-  }
+}
 
 /* --projects start-- */
 
