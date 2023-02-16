@@ -143,6 +143,9 @@ body {
 }
 
 .sidebar h1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
     margin: 0px;
 }
 
@@ -153,6 +156,10 @@ body {
 
 .sidebar ul li {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
     margin-top: 16px;
     font-size: 20px;
     font-weight: 700;
