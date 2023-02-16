@@ -126,6 +126,12 @@ body {
 
 /* main content start */
 
+div[class*="card"] {
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 4px 8px;
+  }
+
+/* --projects start-- */
+
 .main-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -143,7 +149,9 @@ body {
     display: flex;
 }
 
-.project-card, .announcement-card, .trending-card {
+.project-card,
+.announcement-card,
+.trending-card {
     background-color: var(--main-component-background);
     border-radius: 8px;
     padding: 16px;
@@ -165,5 +173,7 @@ body {
 .project-card {
     border-left: 8px solid var(--orange-border);
 }
+
+/* --projects end-- */
 
 /* main content end */
