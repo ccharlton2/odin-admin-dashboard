@@ -15,7 +15,7 @@ A computer doesn't know how to create an admin dashboard.
 
 I will tell the computer how to create an admin dashboard.
 
-# What tool will I use to solve the problem?
+# What tools will I use to solve the problem?
 
 HTML and CSS.
 
@@ -24,4 +24,4 @@ HTML and CSS.
 I will gain a deeper understanding of HTML and CSS tools.
 
 # Notes
-This project is best viewed in a desktop environment. I'm still learning about responsive websites and making pages mobile friendly. I've done my best to make the website viewable on mobile, but it is still best experienced on larger screens.
+This project is best viewed in a desktop environment. I'm still learning about responsive websites and making pages mobile friendly. I've done my best to make the website viewable on mobile, but it's still best experienced on larger screens.
