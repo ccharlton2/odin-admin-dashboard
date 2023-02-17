@@ -3,10 +3,15 @@ body {
     --main-component-background: #FFFFFF;
     --secondary-component-background: #1992D4;
     --orange-border: #F0B429;
+    --component-text: #636363;
 
     background-color: var(--main-background);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+p {
+    color: var(--component-text);
 }
 
 .container {
@@ -218,5 +223,19 @@ div[class*="card"] {
 }
 
 /* --projects end-- */
+
+/* --trending-start-- */
+.trending-user {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+}
+
+.trending-project-name {
+    color: var(--component-text);
+}
+
+/* --trending-end-- */
 
 /* main content end */
